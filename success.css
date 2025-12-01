@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0e0f17;
+    color: white;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #7d2cff;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.8;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 10px 35px 10px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 200px;
+    background: #1B1E27;
+
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.sign-in-btn {
+    padding: 10px 25px;
+    background: linear-gradient(90deg, #6a25ff, #c084ff);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ---------------- MAIN CONTENT ---------------- */
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.checkmark {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.back-arrow {
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.purple {
+    color: #b067ff;
+    font-weight: 500;
+}
+
+.login-btn {
+    width: 260px;
+    margin-top: 30px;
+    padding: 14px 0;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    opacity: 0.85;
+}
+
+.back-home {
+    margin-top: 18px;
+    display: block;
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+}

@@ -1,0 +1,137 @@
+body {
+  background: #0d0f1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #090b13;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #7a4bff;
+}
+
+.tagline {
+  color: #b7b7b7;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  width: 180px;
+}
+
+.signin {
+  background: #7a4bff;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pay-box {
+  width: 75%;
+  margin: 25px auto;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #12141f;
+  text-align: center;
+}
+
+.pay-box span {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.summary-box {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #12141f;
+  border: 1px solid #333;
+}
+
+.summary-box .left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.offer-img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.summary-box .right {
+  float: right;
+  text-align: right;
+}
+
+.pay-btn {
+  width: 140px;
+  padding: 10px;
+  background: #33d659;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+.details-box {
+  width: 75%;
+  margin: 25px auto;
+  padding: 20px;
+  background: #12141f;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.label {
+  color: #8b8b8b;
+  font-size: 13px;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.pending { background: #ffb34733; color: #ffb347; }
+.unpaid { background: #ff4d4d33; color: #ff4d4d; }
+.waiting { background: #7a4bff33; color: #7a4bff; }

@@ -1,0 +1,175 @@
+:root {
+  --bg: #0c0f17;
+  --panel: #11131c;
+  --accent: #7d2bff;
+  --accent-light: #b986ff;
+  --text-muted: #bcb8c8;
+}
+
+body {
+  background: var(--bg);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 50px;
+  background: #0d0f18;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--accent-light);
+}
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 14px;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.searchbox {
+  display: flex;
+  background: rgba(255,255,255,0.06);
+  padding: 6px 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.searchbox input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+
+.signin {
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+/* MAIN PAYMENT LAYOUT */
+.payment-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+
+.left-panel h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.sub {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.order-box {
+  display: flex;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--accent-light);
+  border-radius: 15px;
+  background: var(--panel);
+}
+
+.game-img img {
+  width: 130px;
+  border-radius: 10px;
+}
+
+.details {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.price {
+  font-size: 26px;
+  font-weight: 800;
+  margin-top: 5px;
+  color: var(--accent-light);
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 1;
+  padding: 25px;
+  border: 1px solid var(--accent-light);
+  border-radius: 15px;
+  background: var(--panel);
+  text-align: center;
+}
+
+.scan-sub {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.qr-box {
+  background: #fff;
+  width: 180px;
+  margin: 20px auto;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.qr {
+  width: 140px;
+}
+
+.qr-price {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 8px;
+  color: #00c46a;
+}
+
+.tx-id {
+  font-size: 13px;
+  margin-top: 10px;
+  color: var(--text-muted);
+}
+
+.waiting {
+  color: #bbb;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 14px;
+}
+
+.cancel,
+.paid {
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel {
+  background: #2c2c34;
+  color: #fff;
+}
+
+.paid {
+  background: #00c46a;
+  color: #fff;
+}

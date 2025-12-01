@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background: #0f0f17;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/* ------------ TOPBAR / NAVBAR ------------ */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 2px solid #1a1a25;
+    background: #0a0a12;
+}
+
+.brand {
+    font-size: 28px;
+    font-weight: 700;
+    color: #7d2cff;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-section input {
+    padding: 10px 35px 10px 12px;
+    border-radius: 6px;
+    border: none;
+    width: 200px;
+    background-color: #1b1e27;
+    color: white;
+}
+
+.search-btn {
+    position: relative;
+}
+
+.search-btn .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #888;
+}
+
+.signin-btn {
+    background: linear-gradient(90deg, #6a25ff, #c084ff);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ------------ SIGNUP BOX ------------ */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.signup-box {
+    background: #12121c;
+    padding: 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #7d2cff;
+    text-align: center;
+}
+
+/* Back Arrow & Header */
+.back {
+    text-align: left;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* ------------ TAB SELECTOR / TOGGLE ------------ */
+.tab-selector {
+    display: flex;
+    background: #1b1e27;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-selector button {
+    flex: 1;
+    padding: 12px 0;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tab-selector button.active {
+    background: #a97cff;
+    color: white;
+}
+
+/* ------------ INPUT GROUPS ------------ */
+.input-group {
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+.eye {
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+}
+
+.pass-note {
+    font-size: 12px;
+    margin-top: -8px;
+    opacity: 0.6;
+    color: #ccc;
+}
+
+/* ------------ SIGN-IN TEXT ------------ */
+.signin-text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+}
+
+.continue-btn {
+    width: 260px;
+    margin: 0 auto;
+    display: block;
+    padding: 14px 0;
+    background: white;
+    color: #444;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7d2cff;
+    text-decoration: underline;
+    cursor: pointer;
+}

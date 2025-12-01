@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0e0f1a;
+    color: #fff;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    width: 100%;
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #7443ff;
+}
+
+.tagline {
+    color: #cfcfcf;
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.search {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #161722;
+    width: 180px;
+    color: #fff;
+}
+
+.signin-btn {
+    background: linear-gradient(90deg, #7433ff, #a43eff);
+    padding: 10px 28px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.signup-box {
+    background: #111321;
+    width: 550px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    border: 1.5px solid #623bff;
+    text-align: center;
+}
+
+.signup-box h2 {
+    font-size: 28px;
+    margin-top: -5px;
+}
+
+.top-text {
+    color: #b5b5b5;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn i {
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #e7e7e7;
+}
+
+.agreement {
+    color: #b5b5b5;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.agreement a {
+    color: #7443ff;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2b2b3d;
+    margin: 25px 0;
+}
+
+.back-home {
+    color: #cfcfcf;
+    font-size: 15px;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-text {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.login-text a {
+    color: #7443ff;
+    text-decoration: none;
+}

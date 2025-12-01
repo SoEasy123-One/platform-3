@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CYPAUL — Checkout (Static)</title>
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<script>
+  const payCards = document.querySelectorAll('.pay-card');
+
+  payCards.forEach(card => {
+    card.addEventListener('click', () => {
+      payCards.forEach(c => c.classList.remove('active'));
+      card.classList.add('active');
+    });
+  });
+</script>
+
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <header class="top panel">
+      <div class="brand">
+        <div>
+          <div class="logo">CYPAUL</div>
+          <div class="tag">The fastest & easiest way to boost rank</div>
+        </div>
+      </div>
+
+      <div class="right-tools">
+        <div class="searchbar">
+          <i class="fa fa-search"></i>
+          <input placeholder="Search Offers" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Left column -->
+    <main class="col-left">
+      <!-- Hero section -->
+      <section class="panel hero">
+        <div class="hero-left">
+          <div class="server">
+            <img src="./images/13.jpg" />
+            <div>
+              <div class="title">Mobile Legends: PH 
+                <span class="sub">PH Server</span>
+              </div>
+              <div class="meta">Fast Process • 24/7 Chat Service • Region: Philippines</div>
+            </div>
+          </div>
+
+          <div class="howto">
+            <h5>HOW TO TOP-UP</h5>
+            <ol>
+              <li>Enter User ID & Zone ID</li>
+              <li>Select your desired boost</li>
+              <li>Confirm and complete payment</li>
+              <li>Wait for your booster to start</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="panel outline account">
+            <div class="label">Account Details</div>
+            <input class="input" placeholder="Enter User ID">
+            <input class="input" placeholder="Enter Zone ID">
+            <div class="note">Example: 123456 (Zone ID)</div>
+          </div>
+
+          <div class="panel outline">
+            <div class="label">Voucher Code</div>
+            <div class="voucher">
+              <input class="input" placeholder="Optional">
+              <div class="apply">Apply <i class="fa fa-ticket"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Offer -->
+      <section class="panel selected">
+        <div class="thumb">
+          <img src="./images/14.jpg">
+        </div>
+        <div>
+          <div class="meta"><strong>MLBB: Epic to Legend</strong></div>
+          <div class="price">₱625.00</div>
+          <div class="stars">⭐ 2502 reviews</div>
+        </div>
+      </section>
+
+      <!-- Payment Methods -->
+      <section class="panel payment">
+        <div class="pm-top">
+          <div class="pm-title">Payment Method</div>
+          <div class="pm-total">Total: ₱625.00</div>
+        </div>
+
+        <div class="tabs">
+          <div class="tab primary">E-Wallet</div>
+        </div>
+
+        <div class="accordion">
+          <div class="pay-grid">
+            <div class="pay-card">
+              <img src="./images/maya.jpg">
+              <div class="amount">₱625.00</div>
+            </div>
+
+            <div class="pay-card">
+              <img src="./images/gcash.jpg">
+              <div class="amount">₱625.00</div>
+            </div>
+
+            <div class="pay-card">
+              <img src="./images/shoppee.jpg">
+              <div class="amount">₱625.00</div>
+            </div>
+
+            <div class="pay-card">
+              <img src="./images/grab.jpg">
+              <div class="amount">₱625.00</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Right column -->
+    <aside class="col-right">
+      <div class="panel">
+        <div class="label">Order Confirmation</div>
+        <input class="input" placeholder="Transaction Receipt (Required)">
+        <input class="input" placeholder="Enter your Email">
+        <div class="note">By purchasing you agree to Terms of Service.</div>
+      </div>
+
+      <div class="panel price-box">
+  <div class="big">₱625.00</div>
+  <button class="buy" onclick="location.href='payment.html'">Buy Now</button>
+</div>
+
+
+      <!-- Ratings -->
+      <div class="panel rating">
+        <div class="top">
+          <div class="score">5.0</div>
+          <div class="stars-big">★★★★★</div>
+        </div>
+        <div class="reviews">348 ratings</div>
+
+        <div class="bars">
+          <div class="bar"><span>5★</span><div class="meter"><span></span></div></div>
+          <div class="bar"><span>4★</span><div class="meter"></div></div>
+          <div class="bar"><span>3★</span><div class="meter"></div></div>
+          <div class="bar"><span>2★</span><div class="meter"></div></div>
+          <div class="bar"><span>1★</span><div class="meter"></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

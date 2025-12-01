@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #0d0f18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.card {
+    width: 450px; /* same as .signin-card */
+    background: #11131e;
+    border: 2px solid #4b1cff;
+    border-radius: 20px; /* same rounding */
+    padding: 35px 40px; /* same padding */
+    text-align: center;
+}
+
+.back-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.back-row i {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.back-row h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.tab-row {
+    margin-top: 25px;
+    display: flex;
+    background: #080a12;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tab {
+    flex: 1;
+    padding: 12px 0; /* same height as first CSS tabs */
+    font-size: 14px; /* match first CSS */
+    cursor: pointer;
+    color: #cfcfcf;
+    transition: 0.3s;
+    border: none;
+    background: transparent;
+}
+
+.tab.active {
+    background: #7a33ff;
+    color: white;
+}
+
+.input-group {
+    position: relative;
+    margin-top: 22px; 
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 8px; 
+    height: 50px; 
+}
+
+.phone-code {
+    width: 70px;
+    background: #ffffff;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    font-size: 15px; 
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    flex: 1;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    font-size: 15px; 
+    color: #333;
+    background: transparent;
+}
+
+.icon {
+    padding: 0 15px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.forgot {
+    text-align: left;
+    margin-top: 15px; 
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
+.forgot a {
+    color: #7a33ff;
+    text-decoration: none;
+}
+
+.submit-btn {
+    margin-top: 10px; 
+    width: 100%;
+    height: 50px; 
+    background: white;
+    color: black;
+    border-radius: 25px; 
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #e7e7e7;
+}
+
+.back-home {
+    display: block;
+    margin-top: 15px; 
+    color: white;
+    font-size: 14px;
+}
+
+.secure-text {
+    margin-top: 18px; 
+    font-size: 13px;
+    color: #bdbdbd;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #8f8f8f;
+}

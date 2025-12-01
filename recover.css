@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #0D0F18;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #000000;
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #7F4CFF;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.75;
+    margin-left: 12px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.search-box {
+    background: #1B1E27;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.search-box input {
+    background: none;
+    border: none;
+    color: #eee;
+    outline: none;
+    width: 180px;
+}
+
+.search-icon {
+    font-size: 15px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    padding: 10px 25px;
+    background: linear-gradient(90deg, #824CFF, #C177FF);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* MAIN FORM */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.card {
+    text-align: center;
+    width: 430px;
+}
+
+/* Back Arrow */
+.back-arrow {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+/* Inputs */
+.input-group {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.icon {
+    font-size: 18px;
+    color: #000;
+}
+
+.eye {
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+
+/* Links & Buttons */
+.mobile-link {
+    font-size: 13px;
+    opacity: 0.85;
+    margin-top: 2px;
+}
+
+.mobile-link a {
+    color: #A370FF;
+    text-decoration: underline;
+}
+
+.continue-btn {
+    width: 85%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    background: #FFFFFF;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.back-home {
+    margin-top: 18px;
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: underline;
+    display: block;
+}

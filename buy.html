@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYPAUL — Payment</title>
+
+  <link rel="stylesheet" href="buy.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">CYPAUL</div>
+    <div class="tagline">The fastest & easiest way to boost rank game</div>
+
+    <div class="searchbox">
+      <input type="text" placeholder="Search Offers">
+      <i class="fa fa-search"></i>
+    </div>
+
+    <button class="signin">Sign In</button>
+  </header>
+
+  <section class="payment-container">
+
+    <!-- LEFT -->
+    <div class="left-panel">
+      <h2>Pay for your<br>transaction</h2>
+      <p class="sub">Please see the details listed below.</p>
+
+      <div class="order-box">
+        <div class="game-img">
+          <img src="./images/14.jpg" alt="Game">
+        </div>
+
+        <div class="details">
+          <strong>MLBB PH</strong>
+          <br>MLBB: Epic to Legend
+          <br>Total Amount
+          <div class="price">₱625.00</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right-panel">
+      <h3>Scan To Pay</h3>
+      <p class="scan-sub">Use PayMaya app to complete your payment.</p>
+
+      <div class="">
+        <img src="./images/buy.jpg" alt="QR Code">
+   
+      </div>
+
+      <div class="tx-id">
+        Transaction ID: PAUL02510082100386371
+        <br><span class="waiting">Waiting for confirmation</span>
+      </div>
+
+      <div class="buttons">
+<button class="cancel" onclick="window.location.href='index.html'">Cancel</button>
+<button class="paid" onclick="window.location.href='psuccess.html'">I’ve Paid</button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>
